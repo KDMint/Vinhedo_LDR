@@ -32,6 +32,8 @@ O sensor LDR mede a intensidade da luz ambiente e fornece um valor analógico ao
 
 https://github.com/eliseufesantos/vinhedoLDR/assets/86996546/dccdde24-3b56-4506-bb43-8d76dc7a1ac3
 
+`Link para o pojeto no ThinkerCad:` https://www.tinkercad.com/things/5aDQ9ouPuW6-copy-of-vinheria-agnelo-sensor-de-luz-e-alarme-julio-nota-10/editel?returnTo=%2Fdashboard&sharecode=xQR1JGSDm65zC0PX1GvnfbmVWn8RpLf9EgDiZpv_FQs
+
 ## Código :computer:
 
 ```cpp
