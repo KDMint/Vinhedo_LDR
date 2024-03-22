@@ -1,8 +1,8 @@
-# Projeto de Monitoramento de Luz para Vinhedo
+# Projeto de Monitoramento de Luz para Vinhedo :grapes: :bulb:
 
 Este projeto utiliza um Arduino em conjunto com um sensor LDR (Light Dependent Resistor), LEDs e um buzzer para monitorar a intensidade da luz em um vinhedo. O objetivo é fornecer feedback visual e sonoro sobre os níveis de luz, ajudando os agricultores a determinar se as condições de luz são adequadas para o cultivo das uvas.
 
-## Componentes Utilizados
+## Componentes Utilizados :electric_plug:
 
 - `Arduino Uno (ou equivalente)`
 - `Sensor LDR`
@@ -14,7 +14,14 @@ Este projeto utiliza um Arduino em conjunto com um sensor LDR (Light Dependent R
   - `LED Verde: 220 ohms`
   - `LDR: 10k ohms`
 
-## Funcionamento
+## Instalação e Configuração :low_brightness:
+
+1. Conecte o sensor LDR ao pino analógico A0 do Arduino.
+2. Conecte os LEDs vermelho, amarelo e verde aos pinos 12, 11 e 10, respectivamente, utilizando resistores de corrente limitadora adequados.
+3. Conecte o buzzer ao pino digital 13 do Arduino.
+4. Carregue o código fornecido para o Arduino.
+
+## Funcionamento ⚡
 
 O sensor LDR mede a intensidade da luz ambiente e fornece um valor analógico ao Arduino. Com base neste valor, o Arduino controla os LEDs e o buzzer de acordo com os seguintes critérios:
 
@@ -22,14 +29,10 @@ O sensor LDR mede a intensidade da luz ambiente e fornece um valor analógico ao
 - **LED Amarelo**: Indica que a intensidade da luz está em um nível mediano. O buzzer emite um sinal sonoro por 3 segundos, repetindo-se em intervalos, para alertar sobre condições de luz moderadas.
 - **LED Verde**: Indica que a intensidade da luz está em um nível adequado para o cultivo das uvas.
 
-## Instalação e Configuração
 
-1. Conecte o sensor LDR ao pino analógico A0 do Arduino.
-2. Conecte os LEDs vermelho, amarelo e verde aos pinos 12, 11 e 10, respectivamente, utilizando resistores de corrente limitadora adequados.
-3. Conecte o buzzer ao pino digital 13 do Arduino.
-4. Carregue o código fornecido para o Arduino.
+https://github.com/eliseufesantos/vinhedoLDR/assets/86996546/dccdde24-3b56-4506-bb43-8d76dc7a1ac3
 
-## Código
+## Código :computer:
 
 ```cpp
 int ledvermelho = 12;  // Pino referente ao LED vermelho
@@ -72,3 +75,11 @@ void loop() {
     digitalWrite(ledvermelho, LOW);
   }
 }
+```
+
+## Desenvolvedores :alien:
+- **Eliseu Santos - rm98493**
+- **Júlio Zequin - rm554676**
+- **Khadija Vieira - rm558971**
+- **Isadora Meneghetti - rm556326**
+- **Kaio Souza - rm556095**
